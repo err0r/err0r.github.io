@@ -287,9 +287,32 @@ textarea {
 }
 
 
+
+ /* lets begin with our custom css to beautify our document */
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,400|Roboto:300');
 
+body {
 
-p {
-  color: red;
+padding: 0;
+margin: 0;
+background: #99e1d9;
+color: #32292f;
+
+}
+
+#header {
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  background: #70abaf;
+  color: #fff;
+}
+
+#header li {
+display: inline;
+height: 100%;
+background: #99e1d9;
 }
